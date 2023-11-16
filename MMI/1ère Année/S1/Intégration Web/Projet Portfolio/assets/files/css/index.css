@@ -1,0 +1,286 @@
+/* ============================================================================== */
+/* Éléments généraux */
+/* ============================================================================== */
+@font-face {
+    font-family: PickyNice;
+    src: url(../../fonts/PickyNiceRegular.ttf);
+}
+
+@font-face {
+    font-family: RubikLight;
+    src: url(../../fonts/Rubik-Light.ttf);
+}
+
+html{
+    color: #B5FFF8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Picky{
+    font-family: PickyNice;
+}
+
+
+/* ============================================================================== */
+/* Header */
+/* ============================================================================== */
+header{
+    background-color: #161C23;
+    position: relative;
+    margin-bottom: 4em;
+    box-shadow: 0 0.2em 1.5em 0.5em rgba(13, 12, 12, 1);
+}
+
+#topHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 3.5%;
+    position: relative;
+    z-index: 1;
+}
+
+/* ============================= */
+/* Logo */
+/* ============================= */
+#topHeader img{
+    padding-top: 0.5em;
+}
+
+#circle {
+    width: 12em;
+    height: 12em;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    top: -6em;
+    box-shadow: 0 0 1.5em 0.5em rgba(13, 12, 12, 1);
+}
+
+/* ============================= */
+/* NavBar */
+/* ============================= */
+#navBar{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+}
+
+#navBar ul{
+    display: flex;
+    position: absolute;
+}
+
+#li1{
+    margin-right: 18em;
+}
+
+#li2{
+    margin-right: 13em;
+}
+
+#navBar ul li{
+    list-style-type: none;
+}
+
+#navBar ul li a{
+    text-decoration: none;
+    color: #B5FFF8;
+    font-size: 2em;
+}
+
+#navBarDroite{
+    right: 16.5em;
+}
+
+#navBarGauche{
+    right: -42em;
+}
+
+/* ============================= */
+/* NavBar */
+/* ============================= */
+#selectionLangue{
+    display: flex;
+    position: absolute;
+    left: 54em;
+    top: -0.75em;
+}
+
+#selectionLangue p{
+    font-size: 2em;
+}
+
+#selecteur{
+    width: 1em;
+    padding-left: 0.5em;
+    padding-bottom: 0.3em;
+}
+
+/* ============================= */
+/* Bottom Header */
+/* ============================= */
+#bottomHeader{
+    background-color: #FF8B0F;
+    padding-bottom: 0.1%;
+}
+
+
+/* ============================================================================== */
+/* Body */
+/* ============================================================================== */
+body{
+    background-image: url(../../images/bg.png);
+    margin: 0;
+}
+
+/* ============================= */
+/* Side Réseaux Sociaux */
+/* ============================= */
+#sideRs{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(240, 128, 255, 0.29);
+    padding: 0.6em;
+    border-radius: 1em 0em 0em 1em;
+    position: fixed;
+    top: 1em;
+}
+
+.logoRs{
+    width: 2em;
+    height: auto;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    padding-right: 0.4em;
+    padding-left: 0.4em;
+}
+
+/* ============================= */
+/* Entête */
+/* ============================= */
+#entête{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* =========== */
+/* À Propos */
+/* =========== */
+#aPropos{
+    display: flex;
+}
+
+/* =========== */
+/* Bulle */
+/* =========== */
+#bulle{
+    background-color: #F080FF;
+}
+
+/* ============================= */
+/* News */
+/* ============================= */
+#news{
+    display: flex;
+}
+
+.news{
+    background-color: #F080FF;
+}
+
+/* ============================= */
+/* Sélection projets */
+/* ============================= */
+#carousselGlobal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#caroussel{
+    display: flex;
+}
+
+.carousselElement{
+    background-color: #F080FF;
+}
+
+
+/* ============================================================================== */
+/* Footer */
+/* ============================================================================== */
+footer{
+    background-color: #161C23;
+    font-family: RubikLight;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    border-radius: 1em;
+    box-shadow: 0 0 1.5em 0.5em rgba(13, 12, 12, 1);
+}
+
+/* ============================= */
+/* Partie 1 */
+/* ============================= */
+#part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.8%;
+}
+
+#part1 p{
+    margin-bottom: 0;
+}
+
+#p2{
+    margin-top: 0;
+}
+
+/* ============================= */
+/* Ligne */
+/* ============================= */
+#ligne{
+    background-color: #B5FFF8;
+    padding-bottom: 0.1%;
+    margin-left: 44em;
+    margin-right: 44em;
+    border-radius: 1em;
+}
+
+/* ============================= */
+/* Partie 2 */
+/* ============================= */
+#part2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.8%;
+}
+
+#part2 ul{
+    display: flex;
+    margin-bottom: 0.3%;
+    margin-top: 0;
+}
+
+#fLi1{
+    padding-right: 4.5em;
+    margin-left: -2.5em;
+}
+
+#part2 ul li{
+    list-style-type: none;
+}
+
+#part2 ul li a{
+    color: #B5FFF8;
+}
+
+#part2 p{
+    margin-top: 0.3%;
+}
