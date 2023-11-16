@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="Python"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heap Homework — Heaps 2022 documentation</title>
+      <link rel="stylesheet" href="Heap%20Homework%20%E2%80%94%20Heaps%202022%20documentation_fichiers/pygments.css" type="text/css">
+      <link rel="stylesheet" href="Heap%20Homework%20%E2%80%94%20Heaps%202022%20documentation_fichiers/theme.css" type="text/css">
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="Heap%20Homework%20%E2%80%94%20Heaps%202022%20documentation_fichiers/documentation_options.js"></script>
+        <script src="Heap%20Homework%20%E2%80%94%20Heaps%202022%20documentation_fichiers/jquery.js"></script>
+        <script src="Heap%20Homework%20%E2%80%94%20Heaps%202022%20documentation_fichiers/underscore.js"></script>
+        <script src="Heap%20Homework%20%E2%80%94%20Heaps%202022%20documentation_fichiers/doctools.js"></script>
+    <script src="Heap%20Homework%20%E2%80%94%20Heaps%202022%20documentation_fichiers/theme.js"></script>
+    <link rel="index" title="Index" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/genindex.html">
+    <link rel="search" title="Search" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/search.html">
+    <link rel="next" title="Instructions" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/instructions.html"> 
+</head>
+
+<body class="wy-body-for-nav" cz-shortcut-listen="true"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+            <a href="#" class="icon icon-home"> Heaps
+          </a>
+              <div class="version">
+                S2 - 2022
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs">
+    <input type="hidden" name="check_keywords" value="yes">
+    <input type="hidden" name="area" value="default">
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Table of Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/instructions.html">Instructions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/heaps.html">Heaps</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/specifications.html">Technical Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/advices.html">Assigment Instructions and advices</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Heaps</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home"></a> »</li>
+      <li>Heap Homework</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="heap-homework">
+<h1>Heap Homework<a class="headerlink" href="#heap-homework" title="Permalink to this headline"></a></h1>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Table of Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/instructions.html">Instructions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/instructions.html#code">Code</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/instructions.html#submissions">Submissions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/instructions.html#deadlines">Deadlines</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/heaps.html">Heaps</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/heaps.html#don-t-know-what-heaps-are">Don't know what heaps are?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/heaps.html#our-implementation">Our implementation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/heaps.html#your-work">Your work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/heaps.html#another-example">Another example</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/specifications.html">Technical Specifications</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/specifications.html#heap-representation">Heap representation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/specifications.html#allowed-functions-and-types">Allowed functions and types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/specifications.html#keywords-operators">Keywords, Operators</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/specifications.html#python-sources">Python sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/advices.html">Assigment Instructions and advices</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/advices.html#things-your-need-to-be-careful-about">Things your need to be careful about</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/advices.html#how-to-import-your-code">How to import your code?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/advices.html#you-are-ready-to-submit">You are ready to submit?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/advices.html#understand-your-results">Understand your results</a></li>
+<li class="toctree-l2"><a class="reference internal" href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/advices.html#maluses">Maluses</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="first-read-all-the-docs">
+<h2>First read all the docs:<a class="headerlink" href="#first-read-all-the-docs" title="Permalink to this headline"></a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>the instructions</p></li>
+<li><p>the homework's description</p></li>
+<li><p>the specifications</p></li>
+<li><p>the advices</p></li>
+<li><p>the instructions</p></li>
+<li><p>the homework's description</p></li>
+<li><p>the advices</p></li>
+</ul>
+</div></blockquote>
+<p>and so on and so forth... (you can change the reading order!)</p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="https://algo-td.infoprepa.epita.fr/S2/heaps/html/instructions.html" class="btn btn-neutral float-right" title="Instructions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr>
+
+  <div role="contentinfo">
+    <p>© Copyright 2022, Nathalie "Junior" Bouquet - algo.master.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org/">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+
+</body></html>
